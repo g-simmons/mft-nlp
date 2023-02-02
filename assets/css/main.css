@@ -29,3 +29,22 @@
   box-shadow: 5px 5px 20px #999;
   cursor: pointer;
 }
+
+.tag {
+  background-color: #f1f1f1;
+  color: black;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.tag:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.authors {
+  font-weight: bold;
+}

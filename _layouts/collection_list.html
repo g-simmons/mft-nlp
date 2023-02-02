@@ -8,15 +8,52 @@ layout: default
 {% assign basename = page.name | remove: '.html' %}
 
 <div style="display: flex;flex-direction: column;" >
-{% for item in site[basename] %}
-<div class="card" href="{{site.url}}/{{page.name}}/{{item.name}}">
-    <a href="{{site.url}}/{{page.name}}/{{item.name}}">
-        <h3> {{item.title}} </h3>
-    </a>
-    <p>{{item.description}} </p>
+    {% for item in site[basename] %}
+        <div class="card" href="{{site.url}}/{{page.name}}/{{item.name}}">
+            <a href="{{site.url}}/{{page.name}}/{{item.name}}">
+                <h3> {{item.title}} </h3>
+            </a>
+            {% if item.authors%}
+            <div class="authors">
+                {{ item.authors | join: ", "}}
+            </div>
+            {% endif %}
+
+            {% if item.abstract%}
+            <div class="abstract">
+                {{item.abstract}}
+            </div>
+            {% endif %}
+            
+            <div class="tags">
+            {% if item.huggingface %}
+                <div class="tag">
+                    <a href="{{item.huggingface}}">HuggingFace</a>
+                </div>
+            {% endif %}
+            {% if item.github %}
+                <div class="tag">
+                    <a href="{{item.github}}">GitHub</a>
+                </div>
+            {% endif %}
+            {% if item.osf %}
+                <div class="tag">
+                    <a href="{{item.osf}}">OSF</a>
+                </div>
+            {% endif %}
+            {% if item.pypi %}
+                <div class="tag">
+                    <a href="{{item.pypi}}">PyPI</a>
+                </div>
+            {% endif %}
+            {% if item.paperswithcode %}
+                <div class="tag">
+                    <a href="{{item.paperswithcode}}">Papers with Code</a>
+                </div>
+            {% endif %}
+            </div>
+
+            <p>{{item.description}} </p>
+        </div>
+    {% endfor %}
 </div>
-
-{% endfor %}
-</div>
-
-

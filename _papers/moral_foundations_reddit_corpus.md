@@ -1,7 +1,7 @@
 ---
 name: moral_foundations_reddit_corpus 
 title: "Moral Foundations Reddit Corpus"
-description: "Todo"
+description: ""
 authors: ""
 year: ""
 permalink: /datasets/moral_foundations_reddit_corpus/

@@ -1,10 +1,10 @@
 ---
-name: moral_foundations_reddit_corpus 
+name: moral_foundations_reddit_corpus
 title: "Moral Foundations Reddit Corpus"
 description: ""
 authors: ""
 year: ""
-permalink: /datasets/moral_foundations_reddit_corpus/
+layout: paper
 tasks:
 - moral_sentiment_analysis
 ---

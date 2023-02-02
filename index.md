@@ -26,30 +26,25 @@ results, to facilitate the development of improved methods. It is mainly intende
 
 <div style="display: flex; flex-direction: row; flex-wrap: wrap; column-gap: 4em; row-gap: 1em">
     {% for collection in site.collections %}
-    {% if collection.label != "posts" %}
+        {% if collection.label != "posts" %}
 
-    <div class="collection-list">
-    <div class="collection-list-title">
-    <a href="{{site.url}}/{{collection.label}}">
-        <h2>{{collection.name}}</h2>
-    </a>
-    </div>
-    <div class="collection-list-inner">
-        <div class="list-group-item">
-            <div style=" display: flex;flex-direction: column;">
-                {% for item in site[collection.label] %}
-                <div>
-                    <a href="{{site.url}}/{{collection.label}}/{{ item.name }}">
-                        <h3> {{ item.title }} </h3>
-                    </a>
-                    <p>{{item.description}} </p>
-                </div>
-                {% endfor %}
-            </div>
+        <div class="collection-list">
+        <div class="collection-list-title">
+        <a href="{{site.url}}/{{collection.label}}">
+            <h2>{{collection.name}}</h2>
+        </a>
         </div>
-
-    </div>
-    </div>
-    {% endif %}
+        <div class="collection-list-inner">
+            {% for item in site[collection.label] %}
+            <div class="card">
+                <a href="{{site.url}}/{{collection.label}}/{{ item.name }}">
+                    <h3> {{ item.title }} </h3>
+                </a>
+                <p>{{item.description}} </p>
+            </div>
+            {% endfor %}
+        </div>
+        </div>
+        {% endif %}
     {% endfor %}
 </div>

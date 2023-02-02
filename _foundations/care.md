@@ -1,7 +1,7 @@
 ---
-name: "Care/Harm"
-permalink: /foundations/care
-layout: default
+name: care
+title: "Care/Harm"
+layout: foundation
 ---
 
 # Care/Harm

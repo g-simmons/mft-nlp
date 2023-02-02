@@ -1,19 +1,5 @@
 ---
 title: "Methods"
-layout: default
+layout: collection_list
 ---
-
-<h1>Methods</h1>
-
 Methods are specific implementations of algorithms that perform an NLP task. Methods are listed below.
-
-{% for method in site.methods %}
-<div style=" display: flex;flex-direction: column;">
-  <div>
-    <a href="{{site.url}}/methods/{{ method.name }}">
-      <h3> {{ method.title }} </h3>
-    </a>
-    <p>{{method.description}} </p>
-  </div>
-</div>
-{% endfor %}

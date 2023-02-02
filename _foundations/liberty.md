@@ -1,4 +1,5 @@
 ---
-name: "Liberty/Oppression"
-permalink: /foundations/liberty
+name: liberty
+title: "Liberty/Oppression"
+layout: foundation
 ---

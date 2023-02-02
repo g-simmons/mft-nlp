@@ -1,17 +1,4 @@
 ---
 title: "Datasets"
-layout: default
+layout: collection_list
 ---
-
-<h1>Datasets</h1>
-
-<div style="display: flex;flex-direction: column;">
-  {% for dataset in site.datasets %}
-  <div>
-    <a href="{{dataset.permalink | relative_url}}">
-      <h3> {{dataset.title}} </h3>
-    </a>
-    <p>{{dataset.description}} </p>
-  </div>
-  {% endfor %}
-</div>

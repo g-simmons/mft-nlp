@@ -1,4 +1,5 @@
 ---
-name: "Loyalty/Betrayal"
-permalink: /foundations/loyalty
+name: loyalty
+title: "Loyalty/Betrayal"
+layout: foundation
 ---

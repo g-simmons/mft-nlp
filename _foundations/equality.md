@@ -1,4 +1,5 @@
 ---
-name: "Equality/Inequality"
-permalink: /foundations/equality
+name: equality
+title: "Equality/Inequality"
+layout: foundation
 ---

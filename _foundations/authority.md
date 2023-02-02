@@ -1,5 +1,5 @@
 ---
-name: "Authority/Subversion"
-permalink: /foundations/authority
-layout: default
+name: authority
+title: "Authority/Subversion"
+layout: foundation
 ---

@@ -1,4 +1,5 @@
 ---
-name: "Fairness/Cheating"
-permalink: /foundations/fairness
+name: fairness
+title: "Fairness/Cheating"
+layout: foundation
 ---

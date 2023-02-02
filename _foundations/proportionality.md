@@ -1,4 +1,5 @@
 ---
-name: "Proportionality"
-permalink: /foundations/proportionality
+name: proportionality
+title: "Proportionality"
+layout: foundation
 ---

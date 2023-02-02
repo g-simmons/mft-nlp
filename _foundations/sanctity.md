@@ -1,4 +1,5 @@
 ---
-name: "Sanctity"
-permalink: /foundations/sanctity
+name: sanctity
+title: "Sanctity"
+layout: foundation
 ---

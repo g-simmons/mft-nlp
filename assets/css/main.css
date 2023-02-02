@@ -1,20 +1,31 @@
 .collection-list {
-    flex-basis: 40%;
-    box-shadow: 5px 5px 10px #999;
+    flex-basis: 100%;
+    /* box-shadow: 5px 5px 10px #999; */
     border-radius: 0.5em;
     padding: 10px;
     /* max-height: 30vh; */
     overflow-y: hidden;
+    width: 100%;
   }
-/* 
-.collection-list-title {
 
-    position: sticky;
-  } */
+.card {
+  box-shadow: 5px 5px 10px #999;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 0.3em;
+  padding: 2em;
+}
 
-/* .collection-list-inner {
-    overflow-y: auto;
-    overflow-x: hidden;
-    height: 80%;
-  } */
+.collection-list-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   
+.card:hover {
+  /* Increase shadow on mouseover */
+  box-shadow: 5px 5px 20px #999;
+  cursor: pointer;
+}

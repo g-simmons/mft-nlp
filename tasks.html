@@ -1,0 +1,17 @@
+---
+title: "Tasks"
+layout: default
+---
+
+<h1>Tasks</h1>
+
+{% for task in site.tasks %}
+<div style=" display: flex;flex-direction: column;">
+  <div>
+    <a href="{{site.url}}/tasks/{{ task.name }}">
+      <h3> {{ task.title }} </h3>
+    </a>
+    <p>{{task.description}} </p>
+  </div>
+</div>
+{% endfor %}

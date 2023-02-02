@@ -1,0 +1,12 @@
+@import "{{ site.theme }}";
+
+@import "main.scss";
+
+@import "bootstrap/bootstrap";
+
+.collection-list {
+    flex-basis: 40%;
+    box-shadow: 1em;
+    border-radius: 1em;
+    color:aqua;
+  }

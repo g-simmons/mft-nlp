@@ -1,0 +1,17 @@
+---
+title: "Papers"
+layout: default
+---
+
+<h1>Papers</h1>
+
+<div style="display: flex;flex-direction: column;">
+  {% for paper in site.papers %}
+  <div>
+    <a href="{{paper.permalink | relative_url}}">
+      <h3> {{paper.title}} </h3>
+    </a>
+    <p>{{paper.description}} </p>
+  </div>
+  {% endfor %}
+</div>

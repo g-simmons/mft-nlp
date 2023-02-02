@@ -1,0 +1,17 @@
+---
+title: "Foundations"
+layout: default
+---
+
+<h1>Foundations</h1>
+
+{% for foundation in site.foundations %}
+<div style=" display: flex;flex-direction: column;">
+  <div>
+    <a href="{{foundation.permalink | relative_url}}">
+      <h3> {{ foundation.name}} </h3>
+    </a>
+    <p>{{foundation.description}} </p>
+  </div>
+</div>
+{% endfor %}

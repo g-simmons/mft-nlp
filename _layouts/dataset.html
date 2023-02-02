@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <!-- Image link to the github at page.github, using github.png in assets as link -->
+    {% if page.github %}
+    <a href="{{ page.github }}">
+      <img src="{{ site.baseurl }}/assets/img/github.png" width="32" height="32"> {{ page.github }}
+    </a>
+    <br>
+    {% endif %}
+
+    {% if page.huggingface %}
+    <a href="{{ page.huggingface }}">
+      <img src="{{ site.baseurl }}/assets/img/huggingface.svg" width="32" height="32"> {{ page.huggingface}}
+    </a>
+    <br>
+    {% endif %}
+
+    {% if page.arxiv %}
+    <a href="{{ page.arxiv }}">
+      <img src="{{ site.baseurl }}/assets/img/arxiv.png" width="64" height="32"> {{ page.arxiv}}
+    </a>
+    <br>
+    {% endif %}
+
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

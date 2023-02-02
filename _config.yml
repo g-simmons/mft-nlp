@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # url: "http://mft-nlp.com" # the base hostname & protocol for your site, e.g. http://example.com
 domain: mft-nlp.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://mft-nlp.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /mft-nlp/_site/      # place folder name if the site is served in a subfolder
+baseurl: /mft-nlp/      # place folder name if the site is served in a subfolder
 
 
 # Build settings

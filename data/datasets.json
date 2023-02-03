@@ -1,0 +1,46 @@
+[
+    {
+        "name": "moral_foundations_twitter_corpus",
+        "title": "Moral Foundations Twitter Corpus",
+        "description": "",
+        "authors": "",
+        "year": "",
+        "permalink": "/datasets/moral_foundations_twitter_corpus/",
+        "layout": "dataset",
+        "osf": "https://osf.io/k5n7y/",
+        "tasks": [
+            "moral_sentiment_analysis"
+        ],
+        "papers": [
+            "moral_foundations_twitter_corpus"
+        ]
+    },
+    {
+        "name": "moral_foundations_reddit_corpus",
+        "title": "Moral Foundations Reddit Corpus",
+        "description": "",
+        "authors": "",
+        "year": "",
+        "permalink": "/datasets/moral_foundations_reddit_corpus/",
+        "layout": "dataset",
+        "huggingface": "https://huggingface.co/datasets/USC-MOLA-Lab/MFRC",
+        "paperswithcode": "https://paperswithcode.com/dataset/mfrc",
+        "arxiv": "https://arxiv.org/abs/2208.05545",
+        "tasks": [
+            "moral_sentiment_analysis"
+        ]
+    },
+    {
+        "name": "twitter_morals",
+        "title": "Twitter Morals",
+        "description": "",
+        "authors": "",
+        "year": "",
+        "permalink": "/datasets/twitter_morals/",
+        "github": "https://github.com/kmjohnson/twitter-morals",
+        "layout": "dataset",
+        "tasks": [
+            "moral_sentiment_analysis"
+        ]
+    }
+]

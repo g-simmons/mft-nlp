@@ -1,0 +1,41 @@
+[
+    {
+        "title": "The Extended Moral Foundations Dictionary (eMFD)",
+        "layout": "default",
+        "osf": "https://osf.io/vw85e/",
+        "github": "https://github.com/medianeuroscience/emfd"
+    },
+    {
+        "title": "The Moral Foundations Dictionary",
+        "layout": "default",
+        "github": null
+    },
+    {
+        "title": "The Moral Foundations Dictionary 2.0",
+        "layout": "default",
+        "github": null,
+        "osf": "https://osf.io/ezn37/"
+    },
+    {
+        "title": "LibertyMFD: A Lexicon to Assess the Moral Foundation of Liberty",
+        "authors": [
+            "Oscar Araque",
+            "Lorenzo Gatti",
+            "Kyriaki Kalimeri"
+        ],
+        "papers": [
+            "libertyMFD"
+        ]
+    },
+    {
+        "title": "Moral Foundations FrameAxis",
+        "layout": "default",
+        "github": "https://github.com/negar-mokhberian/Moral_Foundation_FrameAxis"
+    },
+    {
+        "title": "MoralStrength",
+        "layout": "default",
+        "github": "https://github.com/oaraque/moral-foundations",
+        "pypi": "https://pypi.org/project/moralstrength/"
+    }
+]

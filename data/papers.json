@@ -1,0 +1,135 @@
+[
+    {
+        "name": "moralstrength",
+        "title": "MoralStrength: Exploiting a Moral Lexicon and Embedding Similarity for Moral Foundations Prediction",
+        "description": null,
+        "abstract": "Moral rhetoric plays a fundamental role in how we perceive and interpret the information we receive, greatly influencing our decision-making process. Especially when it comes to controversial social and political issues, our opinions and attitudes are hardly ever based on evidence alone. The Moral Foundations Dictionary (MFD) was developed to operationalize moral values in the text. In this study, we present MoralStrength, a lexicon of approximately 1,000 lemmas, obtained as an extension of the Moral Foundations Dictionary, based on WordNet synsets. Moreover, for each lemma it provides with a crowdsourced numeric assessment of Moral Valence, indicating the strength with which a lemma is expressing the specific value. We evaluated the predictive potentials of this moral lexicon, defining three utilization approaches of increased complexity, ranging from lemmas' statistical properties to a deep learning approach of word embeddings based on semantic similarity. Logistic regression models trained on the features extracted from MoralStrength, significantly outperformed the current state-of-the-art, reaching an F1-score of 87.6% over the previous 62.4% (p-value<0.01), and an average F1-Score of 86.25% over six different datasets. Such findings pave the way for further research, allowing for an in-depth understanding of moral narratives in text for a wide range of social issues.",
+        "authors": [
+            "Oscar Araque",
+            "Lorenzo Gatti",
+            "Kyriaki Kalimeri"
+        ],
+        "year": 2020,
+        "layout": "paper",
+        "paperswithcode": null,
+        "journal": "Knowledge-Based Systems",
+        "tasks": [
+            "moral_sentiment_analysis"
+        ]
+    },
+    {
+        "name": "moral_foundations_twitter_corpus",
+        "title": "Moral Foundations Twitter Corpus: A Collection of 35k Tweets Annotated for Moral Sentiment.",
+        "abstract": "Research has shown that accounting for moral sentiment in natural language can yield insight into a variety of on- and off-line phenomena such as message diffusion, protest dynamics, and social distancing. However, measuring moral sentiment in natural language is challenging, and the difficulty of this task is exacerbated by the limited availability of annotated data. To address this issue, we introduce the Moral Foundations Twitter Corpus, a collection of 35,108 tweets that have been curated from seven distinct domains of discourse and hand annotated by at least three trained annotators for 10 categories of moral sentiment. To facilitate investigations of annotator response dynamics, we also provide psychological and demographic metadata for each annotator. Finally, we report moral sentiment classification baselines for this corpus using a range of popular methodologies.",
+        "authors": [
+            "Joe Hoover",
+            "Gwenyth Portillo-Wightman",
+            "Leigh Yeh",
+            "Shreya Havaldar",
+            "Aida Mostafazadeh Davani",
+            "Ying Lin",
+            "Brendan Kennedy"
+        ],
+        "year": "",
+        "osf": "https://osf.io/k5n7y/",
+        "layout": "paper",
+        "tasks": [
+            "moral_sentiment_analysis"
+        ]
+    },
+    {
+        "title": "Morality Between the Lines : Detecting Moral Sentiment In Text",
+        "authors": [
+            "Justin Garten",
+            "Reihane Boghrati",
+            "Joe Hoover",
+            "Kate M. Johnson",
+            "Morteza Dehghani"
+        ],
+        "abstract": " Expressions of moral sentiment play a fundamental role in political framing, social solidarity, and basic human motivation. Moral rhetoric helps us communicate the reasoning behind our choices, how we feel we should govern, and the communities to which we belong. In this paper, we use shortpost social media to compare the accuracy of text analysis methods for detecting moral rhetoric and longer form political speeches to explore detecting shifts in that rhetoric over time. Building on previous work using word count methods and the Moral Foundations Dictionary [Graham et al., 2009], we make use of pre-trained distributed representations for words to extend this dictionary. We show that combining the MFD with distributed representations allows us to capture a cleaner signal when detecting moral rhetoric, particularly with shortform text. We further demonstrate how the addition of distributed representations can simplify dictionary creation. Finally, we demonstrate how capturing moral rhetoric in text over time opens up new avenues for research such as assessing when and how arguments become moralized and how moral rhetoric impacts subsequent behavior. "
+    },
+    {
+        "name": "moral_foundations_reddit_corpus",
+        "title": "The Moral Foundations Reddit Corpus",
+        "description": null,
+        "abstract": "Moral framing and sentiment can affect a variety of online and offline behaviors, including donation, pro-environmental action, political engagement, and even participation in violent protests. Various computational methods in Natural Language Processing (NLP) have been used to detect moral sentiment from textual data, but in order to achieve better performances in such subjective tasks, large sets of hand-annotated training data are needed. Previous corpora annotated for moral sentiment have proven valuable, and have generated new insights both within NLP and across the social sciences, but have been limited to Twitter. To facilitate improving our understanding of the role of moral rhetoric, we present the Moral Foundations Reddit Corpus, a collection of 16,123 Reddit comments that have been curated from 12 distinct subreddits, hand-annotated by at least three trained annotators for 8 categories of moral sentiment (i.e., Care, Proportionality, Equality, Purity, Authority, Loyalty, Thin Morality, Implicit/Explicit Morality) based on the updated Moral Foundations Theory (MFT) framework. We use a range of methodologies to provide baseline moral-sentiment classification results for this new corpus, e.g., cross-domain classification and knowledge transfer.",
+        "authors": [
+            "Jackson Trager",
+            "Alireza S. Ziabari",
+            "Aida Mostafazadeh Davani",
+            "Preni Golazizian",
+            "Farzan Karimi-Malekabadi",
+            "Ali Omrani",
+            "Zhihe Li",
+            "Brendan Kennedy",
+            "Nils Karl Reimer",
+            "Melissa Reyes",
+            "Kelsey Cheng",
+            "Mellow Wei",
+            "Christina Merrifield",
+            "Arta Khosravi",
+            "Evans Alvarez",
+            "Morteza Dehghani"
+        ],
+        "year": 2022,
+        "layout": "paper",
+        "paperswithcode": "https://paperswithcode.com/dataset/mfrc",
+        "huggingface": "https://huggingface.co/datasets/USC-MOLA-Lab/MFRC",
+        "arxiv": "https://arxiv.org/abs/2208.05545",
+        "tasks": [
+            "moral_sentiment_analysis"
+        ]
+    },
+    {
+        "abstract": "Morality plays an important role in culture, identity, and emotion. Recent advances in natural language processing have shown that it is possible to classify moral values expressed in text at scale. Morality classification relies on human annotators to label the moral expressions in text, which provides training data to achieve state-of-the-art performance. However, these annotations are inherently subjective and some of the instances are hard to classify, resulting in noisy annotations due to error or lack of agreement. The presence of noise in training data harms the classifier's ability to accurately recognize moral foundations from text. We propose two metrics to audit the noise of annotations. The first metric is entropy of instance labels, which is a proxy measure of annotator disagreement about how the instance should be labeled. The second metric is the silhouette coefficient of a label assigned by an annotator to an instance. This metric leverages the idea that instances with the same label should have similar latent representations, and deviations from collective judgments are indicative of errors. Our experiments on three widely used moral foundations datasets show that removing noisy annotations based on the proposed metrics improves classification performance.",
+        "authors": [
+            "Negar Mokhberian",
+            "Frederic R. Hopp",
+            "Bahareh Harandizadeh",
+            "Fred Morstatter",
+            "Kristina Lerman"
+        ],
+        "year": 2022,
+        "title": "Noise Audits Improve Moral Foundation Classification"
+    },
+    {
+        "title": "LibertyMFD: A Lexicon to Assess the Moral Foundation of Liberty",
+        "authors": [
+            "Oscar Araque",
+            "Lorenzo Gatti",
+            "Kyriaki Kalimeri"
+        ],
+        "abstract": " Quantifying the moral narratives expressed in the user-generated text, news, or public discourses is fundamental for understanding individuals\u2019 concerns and viewpoints and preventing violent protests and social polarisation. The Moral Foundation Theory (MFT) was developed to operationalise morality in a five-dimensional scale system. Recent developments of the theory urged for the introduction of a new foundation, the Liberty Foundation. Being only recently added to the theory, there are no available linguistic resources to assess whether liberty is present in text corpora. Given its importance to current social issues such as the vaccination debate, we propose two data-driven approaches, deriving two candidate lexicons generated based on aligned documents from online news sources with different worldviews. After extensive experimentation, we contribute to the research community a novel lexicon that assesses the liberty moral foundation in the way individuals with contrasting viewpoints express themselves through written text. The LibertyMFD dictionary can be a valuable tool for policymakers to understand diverse viewpoints on controversial social issues such as vaccination, abortion, or even uprisings, as they happen and on a large scale. ",
+        "journal": "GoodIT",
+        "year": 2022
+    },
+    {
+        "name": "twitter_morals",
+        "title": "Classification of Moral Foundations in Microblog Political Discourse",
+        "description": null,
+        "abstract": "Previous works in computer science, as well as political and social science, have shown correlation in text between political ideologies and the moral foundations expressed within that text. Additional work has shown that policy frames, which are used by politicians to bias the public towards their stance on an issue, are also correlated with political ideology. Based on these associations, this work takes a first step towards modeling both the language and how politicians frame issues on Twitter, in order to predict the moral foundations that are used by politicians to express their stances on issues. The contributions of this work includes a dataset annotated for the moral foundations, annotation guidelines, and probabilistic graphical models which show the usefulness of jointly modeling abstract political slogans, as opposed to the unigrams of previous works, with policy frames for the prediction of the morality underlying political tweets.",
+        "authors": [
+            "Kristen Johnson",
+            "Dan Goldwasser"
+        ],
+        "year": 2018,
+        "layout": "paper",
+        "paperswithcode": null,
+        "journal": "ACL",
+        "tasks": [
+            "moral_sentiment_analysis"
+        ]
+    },
+    {
+        "title": "Cross-Domain Classification of Moral Values",
+        "journal": "NAACL-HLT",
+        "authors": [
+            "Enrico Liscio",
+            "Alin Dondera",
+            "Andrei Geadau",
+            "C. Jonker",
+            "Pradeep K. Murukannaiah"
+        ],
+        "abstract": "Moral values influence how we interpret and act upon the information we receive. Identifying human moral values is essential for artificially intelligent agents to co-exist with humans. Recent progress in natural language processing allows the identification of moral values in textual discourse. However, domain-specific moral rhetoric poses challenges for transferring knowledge from one domain to another. We provide the first extensive investigation on the effects of cross-domain classification of moral values from text. We compare a state-of-the-art deep learning model (BERT) in seven domains and four cross-domain settings. We show that a value classifier can generalize and transfer knowledge to novel domains, but it can introduce catastrophic forgetting. We also highlight the typical classification errors in cross-domain value classification and compare the model predictions to the annotators agreement. Our results provide insights to computer and social scientists that seek to identify moral rhetoric specific to a domain of discourse."
+    }
+]

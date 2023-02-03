@@ -1,0 +1,42 @@
+[
+    {
+        "name": "liberty",
+        "title": "Liberty/Oppression",
+        "layout": "foundation"
+    },
+    {
+        "name": "authority",
+        "title": "Authority/Subversion",
+        "layout": "foundation"
+    },
+    {
+        "name": "care",
+        "title": "Care/Harm",
+        "layout": "foundation"
+    },
+    {
+        "name": "equality",
+        "title": "Equality/Inequality",
+        "layout": "foundation"
+    },
+    {
+        "name": "loyalty",
+        "title": "Loyalty/Betrayal",
+        "layout": "foundation"
+    },
+    {
+        "name": "fairness",
+        "title": "Fairness/Cheating",
+        "layout": "foundation"
+    },
+    {
+        "name": "sanctity",
+        "title": "Sanctity",
+        "layout": "foundation"
+    },
+    {
+        "name": "proportionality",
+        "title": "Proportionality",
+        "layout": "foundation"
+    }
+]

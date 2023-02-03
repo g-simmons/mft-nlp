@@ -22,7 +22,6 @@ authors:
 - Bahareh Harandizadeh
 - Fred Morstatter
 - Kristina Lerman
-published: 2022-10-13 23:37:47+00:00
 year: 2022
 title: Noise Audits Improve Moral Foundation Classification
 ---

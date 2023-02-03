@@ -48,3 +48,14 @@
 .authors {
   font-weight: bold;
 }
+
+.journal-year {
+  font-style: italic;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.abstract {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}

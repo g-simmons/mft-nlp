@@ -13,18 +13,26 @@ layout: default
             <a href="{{site.url}}/{{page.name}}/{{item.name}}">
                 <h3> {{item.title}} </h3>
             </a>
+
             {% if item.authors%}
             <div class="authors">
                 {{ item.authors | join: ", "}}
             </div>
             {% endif %}
 
-            {% if item.abstract%}
-            <div class="abstract">
-                {{item.abstract}}
-            </div>
+            <div class="journal-year">
+            {% if item.journal%}
+            <span class="journal">
+                {{item.journal}}
+            </span >
             {% endif %}
-            
+            {% if item.year%}
+            <span class="year">
+                {{item.year}}
+            </span>
+            {% endif %}
+            </div>
+
             <div class="tags">
             {% if item.huggingface %}
                 <div class="tag">
@@ -52,6 +60,14 @@ layout: default
                 </div>
             {% endif %}
             </div>
+
+            {% if item.abstract%}
+            <div class="abstract">
+                {{item.abstract}}
+            </div>
+            {% endif %}
+
+
 
             <p>{{item.description}} </p>
         </div>

@@ -3,8 +3,19 @@ title: "Export"
 layout: default
 ---
 
-# Export (Coming Soon!)
-One of the key features of having MFT NLP results in a centralized location 
-is the ability to download data in a standard format. Coming soon!
+# Export
 
-{{ site.url }}/downloads/mft_nlp_data.zip
+Export the site data as a .zip of json files:
+[Export]({{ site.url }}/downloads/mft_nlp_data.zip)
+
+Alternatively, view or download the data directly from [GitHub](https://github.com/g-simmons/mft-nlp/tree/master/data)
+
+## Data description
+The data contains the following files:
+- datasets.json
+- foundations.json
+- methods.json
+- papers.json
+- tasks.json
+
+Filenames correspond to the file contents. Data description (how many items per file, what fields, etc.) coming soon :)

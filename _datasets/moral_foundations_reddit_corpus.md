@@ -10,6 +10,7 @@ huggingface: https://huggingface.co/datasets/USC-MOLA-Lab/MFRC
 paperswithcode: https://paperswithcode.com/dataset/mfrc
 arxiv: https://arxiv.org/abs/2208.05545
 layout: dataset
+paper: moral_foundations_reddit_corpus
 tasks:
 - moral_sentiment_analysis
 ---

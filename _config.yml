@@ -38,18 +38,23 @@ collections:
   tasks:
     name: "Tasks"
     output: true
+    permalink: /:collection/:name
   datasets:
     name: "Datasets"
     output: true
+    permalink: /:collection/:name
   methods:
     name: "Methods"
     output: true
+    permalink: /:collection/:name
   foundations:
     name: "Foundations"
     output: true
+    permalink: /:collection/:name
   papers:
     name: "Papers"
     output: true
+    permalink: /:collection/:name
 
 sass:
   sass_dir: assets/css

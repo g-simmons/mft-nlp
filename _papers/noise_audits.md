@@ -1,4 +1,6 @@
 ---
+name: noise_audits
+permalink: /methods/noise_audits/
 abstract: 'Morality plays an important role in culture, identity, and emotion. Recent
   advances in natural language processing have shown that it is possible to
   classify moral values expressed in text at scale. Morality classification
@@ -24,4 +26,7 @@ authors:
 - Kristina Lerman
 year: 2022
 title: Noise Audits Improve Moral Foundation Classification
+tasks:
+- moral_sentiment_analysis
+layout: paper
 ---

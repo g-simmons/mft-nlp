@@ -3,6 +3,7 @@ name: moral_sentiment_analysis
 title: "Moral Sentiment Analysis"
 description: "Moral Sentiment Analysis is the task of classifying the moral sentiment of a text."
 permalink: /tasks/moral_sentiment_analysis/
+layout: default
 ---
 ## Task Description
 

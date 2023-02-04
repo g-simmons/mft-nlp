@@ -16,6 +16,7 @@
   margin-left: 20px;
   border-radius: 0.3em;
   padding: 2em;
+  position: relative;
 }
 
 .collection-list-inner {
@@ -58,4 +59,19 @@
 .abstract {
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+.paper {
+  background-color: white;
+  /* box-shadow: 5px 5px 10px white; */
+  /* box-shadow: -10px 0px 10px 1px white; */
+  /* Absolute position inside parent, stick to the right side of the containing div, use 20% of the parent div width */
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  overflow: hidden;
+  border-top-right-radius: 0.3em;
+  border-bottom-right-radius: 0.3em;
 }

@@ -9,8 +9,8 @@ layout: default
 
 <div style="display: flex;flex-direction: column;" >
     {% for item in site[basename] %}
-        <div class="card" href="{{site.url}}/{{page.name}}/{{item.name}}">
-            <a href="{{site.url}}/{{page.name}}/{{item.name}}">
+        <div class="card" href="{{site.url}}/{{basename}}/{{item.name}}">
+            <a href="{{site.url}}/{{basename}}/{{item.name}}">
                 <h3> {{item.title}} </h3>
             </a>
 
@@ -63,8 +63,42 @@ layout: default
 
             {% if item.abstract%}
             <div class="abstract">
-                {{item.abstract}}
+                <details>
+                    <summary>Abstract</summary>
+                    
+                    {{item.abstract}}
+                    
+                    </details>
             </div>
+            {% endif %}
+
+            {% if item.tasks %}
+            <div class="tasks">
+                {% for task in item.tasks %}
+                    {% for sitetask in site.tasks %}
+                        {% if sitetask.name == task %}
+                        <div class="task">
+                            <div class="tag">
+                                <a href="{{site.url}}/tasks/{{task}}">{{sitetask.title}}</a>
+                            </div>
+                        </div>
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if item.paper %}
+                {% for sitepaper in site.papers %}
+                    {% if sitepaper.name == item.paper %}
+                    {{sitepaper.name}}
+                    <div class="paper">
+                        <a href="{{site.url}}/papers/{{item.paper}}">
+                            <img src="{{site.url}}/assets/img/preview/{{sitepaper.name}}-01.png" alt="paper" />
+                        </a>
+                    </div>
+                    {% endif %}
+                {% endfor %}
             {% endif %}
 
 

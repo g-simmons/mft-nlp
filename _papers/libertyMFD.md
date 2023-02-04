@@ -9,4 +9,10 @@ Quantifying the moral narratives expressed in the user-generated text, news, or 
 '
 journal: GoodIT
 year: 2022
+tasks:
+- moral_sentiment_analysis
+name: libertyMFD
+permalink: /papers/libertyMFD/
+layout: paper
+pdf: libertyMFD
 ---

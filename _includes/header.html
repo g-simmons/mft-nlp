@@ -3,7 +3,19 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <div class="site-masthead"> 
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+      <div class="site-link-imgs"> 
+        <a class="site-link-img site-twitter-link-img" href="{{ my_page.url | relative_url }}">
+          <img src={{site.url}}/assets/img/twitter.png width="26" height="26">
+        </a>
+
+        <a class="site-link-img site-github-link-img" href="https://www.github.com/g-simmons/mft-nlp">
+          <img src={{site.url}}/assets/img/github.png width="26" height="26">
+        </a>
+      </div>
+    </div>
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -15,6 +27,7 @@
             </svg>
           </span>
         </label>
+
 
         <div class="trigger">
           {% assign meta_pages = "About,Contact,FAQ,Export,Contributing" | split:"," %}

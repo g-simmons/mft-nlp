@@ -9,4 +9,5 @@ github: https://github.com/kmjohnson/twitter-morals
 layout: dataset
 tasks:
 - moral_sentiment_analysis
+paper: twitter_morals
 ---

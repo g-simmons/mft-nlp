@@ -28,3 +28,7 @@ foundations:
 - Loyalty
 - Purity
 ---
+
+
+
+<vegachart schema-url="{{ site.url }}/assets/charts/moral_foundations_twitter_corpus.json" style="width: 100%"></vegachart>

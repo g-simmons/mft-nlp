@@ -13,4 +13,4 @@ If you have authored relevant work and would like to see it listed here, please 
 
 I would really love feedback on the site - if you have any questions, comments, or suggestions, please feel free to reach out to me at <info@mft-nlp.com>. 
 
-Contributions are welcome! Please see the [contribution guidelines](/contribute/) for more information.
+Contributions are welcome! Please see the [contribution guidelines]({{site.url}}/contributing.html) for more information.
